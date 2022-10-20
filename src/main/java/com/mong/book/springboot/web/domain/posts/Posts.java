@@ -29,6 +29,11 @@ public class Posts {
         this.content = content;
         this.author = author;
     }
+
+    public void update(String title,String content) {
+        this.title = title;
+        this.content = content;
+    }
 }
 
 // @Builder 는 생성자로 값을 채워 객체를 완성하는 목적으로 사용한다.
