@@ -34,6 +34,7 @@ dependencies {
     runtimeOnly('mysql:mysql-connector-java')
     compile('org.springframework.boot:spring-boot-starter-mustache')
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
+    testCompile("org.springframework.security:spring-security-test")
 }
 
 //test {
